@@ -4,14 +4,13 @@ This Handbook should be the starting point for any new team members. It provides
 
 ## Table of contents
 
-### Guides & Resources
-
 ### Benefits & Perks
 
 Making work as fabulous as possible:
 
 - [💻 Work Ready](benefits/work_ready.md) – We'll buy you a laptop, ergonomic equipment and more
 
+### Guides & Resources
 
 #### Team
 - [Team Norms](guides/team-norms/README.md)
