@@ -6,6 +6,13 @@ This Handbook should be the starting point for any new team members. It provides
 
 ### Guides & Resources
 
+### Benefits & Perks
+
+Making work as fabulous as possible:
+
+- [💻 Work Ready](benefits/work_ready.md) – We'll buy you a laptop, ergonomic equipment and more
+
+
 #### Team
 - [Team Norms](guides/team-norms/README.md)
 - [Learning & Learn Tech](guides/learning/README.md)
