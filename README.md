@@ -8,6 +8,7 @@ This Handbook should be the starting point for any new team members. It provides
 
 #### Team
 - [Team Norms](guides/team-norms/README.md)
+- [Learning & Learn Tech](guides/learning/README.md)
 
 ## Contributing to our Handbook
 
