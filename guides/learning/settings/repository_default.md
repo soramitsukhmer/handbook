@@ -12,21 +12,24 @@ See: https://github.com/soramitsukhmer/renaming
 
 ### Default labels
 
-| label            | description                                | color   |
-| ---------------- | ------------------------------------------ | ------- |
-| bug              | Something isn't working                    | #d73a4a |
-| documentation    | Improvements or additions to documentation | #0075ca |
-| duplicate        | This issue or pull request already exists  | #000000 |
-| enhancement      | New feature or request                     | #a2eeef |
-| good first issue | Good for newcomers                         | #7057ff |
-| help wanted      | Extra attention is needed                  | #008672 |
-| invalid          | This doesn't seem right                    | #e4e669 |
-| question         | Further information is requested           | #d876e3 |
-| wontfix          | This will not be worked on                 | #ffffff |
+| Label                 | Description                                                                                                                | Color   |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------- |
+| Bug                   | Used by QA to mark the issue which is the bug.                                                                             | #d73a4a |
+| Bug Fixed             | Used by Dev to mark PR as the request to fix bug.                                                                          | #0e8a16 |
+| Duplicate             | Used by [Dev, QA, Reviewer] to mark anything as duplicate.                                                                 | #cfd3d7 |
+| Enhancement           | Used by [Dev, Reviewer] to mark issue to make enhancement or mark on PR as request to enhance.                             | #a2eeef |
+| Feature               | Used by [Dev, QA] to mark PR or issue that it is new feature.                                                              | #fbca04 |
+| Help Wanted           | Used by [Dev, QA, Reviewer] to mark anything which is required extra attention.                                            | #d93f0b |
+| Invalid Issue         | Used by [Dev, QA] to mark the invalid issue.                                                                               | #5319e7 |
+| Missing Requirement   | Used by QA to mark the issue which required to fill the missing requirement on current release.                            | #d93f0b |
+| Postponed             | Used by [Dev, QA, Reviewer] to mark anything that is postponed for now.                                                    | #0052cc |
+| Question              | Used by [Dev, QA, Reviewer] to mark anything which is required more information.                                           | #d876e3 |
+| Ready to Test         | Used by Dev to mark issue that was finished or fixed.                                                                      | #0e8a16 |
+| Requirement Change    | Used by QA to mark the issue as request to change business logic.                                                          | #0052cc |
 
 ### Additionl labels
 
-| label              | description                                              | color   |
+| Label              | Description                                              | Color   |
 | ------------------ | -------------------------------------------------------- | ------- |
 | automation         |                                                          | #15efaa |
 | breaking-changes   | Introduce new changes that will break the application.   | #f9b116 |
