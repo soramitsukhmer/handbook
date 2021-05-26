@@ -24,6 +24,16 @@ See: https://github.com/soramitsukhmer/renaming
 | question         | Further information is requested           | #d876e3 |
 | wontfix          | This will not be worked on                 | #ffffff |
 
+### Release Drafter
+
+| label       | description                               | color   |
+| ----------- | ----------------------------------------- | ------- |
+| feature     | New feature or request.                   | #a2eeef |
+| enhancement | New feature or request                    | #a2eeef |
+| bug         | Something isn't working                   | #d73a4a |
+| hotfix      | Fixed something that isn't working.       | #d73a4a |
+| chore       | This pull request is mark for maintenance | #bfd4f2 |
+
 ### Additionl labels
 
 | label              | description                                              | color   |
