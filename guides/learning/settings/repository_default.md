@@ -26,13 +26,18 @@ See: https://github.com/soramitsukhmer/renaming
 
 ### Release Drafter
 
-| label       | description                               | color   |
-| ----------- | ----------------------------------------- | ------- |
-| feature     | New feature or request.                   | #a2eeef |
-| enhancement | New feature or request                    | #a2eeef |
-| bug         | Something isn't working                   | #d73a4a |
-| hotfix      | Fixed something that isn't working.       | #d73a4a |
-| chore       | This pull request is mark for maintenance | #bfd4f2 |
+| label         | description                               | color   |
+| ------------- | ----------------------------------------- | ------- |
+| feature       | New feature or request.                   | #a2eeef |
+| enhancement   | New feature or request                    | #a2eeef |
+| bug           | Something isn't working                   | #d73a4a |
+| hotfix        | Fixed something that isn't working.       | #d73a4a |
+| chore         | This pull request is mark for maintenance | #bfd4f2 |
+| release-major |                                           |         |
+| release-minor |                                           |         |
+| release-patch |                                           |         |
+
+If a pull requests is found with the label `release-major`/`release-minor`/`release-patch`, the corresponding version key will be incremented from a semantic version.
 
 ### Additionl labels
 
