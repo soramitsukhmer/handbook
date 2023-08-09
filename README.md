@@ -2,19 +2,7 @@
 
 This Handbook should be the starting point for any new team members. It provides an overview of why we exist, our roles, our investment into staff welfare, our team norms, and details of our processes.
 
-## Table of contents
-
-### Benefits & Perks
-
-Making work as fabulous as possible:
-
-- [💻 Work Ready](benefits/work_ready.md) – We'll buy you a laptop, ergonomic equipment and more
-
-### Guides & Resources
-
-#### Team
-- [Team Norms](guides/team-norms/README.md)
-- [Learning & Learn Tech](guides/learning/README.md)
+> WIP
 
 ## Contributing to our Handbook
 

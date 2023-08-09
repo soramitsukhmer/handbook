@@ -1,0 +1,13 @@
+{
+  "name": "@soramitsukhmer/handbook",
+  "private": true,
+  "version": "1.0.0",
+  "description": "This Handbook should be the starting point for any new team members. It provides an overview of why we exist, our roles, our investment into staff welfare, our team norms, and details of our processes.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
