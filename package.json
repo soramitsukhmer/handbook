@@ -4,8 +4,13 @@
   "version": "1.0.0",
   "description": "This Handbook should be the starting point for any new team members. It provides an overview of why we exist, our roles, our investment into staff welfare, our team norms, and details of our processes.",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vitepress": "vitepress",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   },
   "keywords": [],
   "author": "",
