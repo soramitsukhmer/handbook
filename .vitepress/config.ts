@@ -20,6 +20,20 @@ const Example = definePage({
   ]
 })
 
+const OnBoarding = definePage({ 
+  text: 'On-boarding', 
+  link: '/on-boarding/',
+  sidebar: [
+    { text: 'Welcome', link: '/on-boarding/' },
+    { text: 'Checklist', link: '/on-boarding/checklist' },
+    { text: 'Setting up services', link: '/on-boarding/setting-up-services' },
+  ]
+})
+
+/**
+ * Site configuration
+ */
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Soramitsu (Khmer)",
@@ -32,9 +46,11 @@ export default defineConfig({
 
     nav: [
       Home,
+      OnBoarding,
       Example,
     ],
     sidebar: {
+      [OnBoarding.link]:  OnBoarding.sidebar,
       [Example.link]: Example.sidebar,
     },
 
