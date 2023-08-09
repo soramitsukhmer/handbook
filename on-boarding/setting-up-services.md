@@ -6,7 +6,13 @@ Note that Google office applications (Docs, Sheets) are the preferred format for
 
 **Everyone**
 
-1. Google Mail
-1. GitHub
-1. Slack
-1. Jira and Confluence
+1. Google Suite (with 2FA)
+2. Slack (with 2FA)
+3. Jira and Confluence (with 2FA)
+
+**Designers**
+1. Figma (with 2FA)
+
+**Developers & Engineers**
+1. GitHub (with 2FA)
+2. Get access to infrastructure for delivery team
