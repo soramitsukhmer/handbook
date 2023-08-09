@@ -54,6 +54,10 @@ export default defineConfig({
       [Example.link]: Example.sidebar,
     },
 
+    editLink: {
+      pattern: 'https://github.com/soramitsukhmer/handbook/edit/main/:path',
+    },
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
