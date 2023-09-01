@@ -20,6 +20,25 @@ const Example = definePage({
   ]
 })
 
+const FrontEnd = definePage({ 
+  text: 'Front End',
+  link: '/frontend/',
+  sidebar: [
+    { text: 'Getting Started', link: '/frontend/' },
+    { text: 'Setup Development Environment', link: '/frontend/setup' },
+    { text: 'Engineering Guide', items: [
+      { text: 'Guidelines', items: [
+        { text: 'Code Guidelines', link: '/frontend/code-guidelines' },
+        { text: 'API Guidelines', link: '/frontend/api-guidelines' }
+      ]}
+    ]},
+    { text: 'Workflows', items: [
+      { text: 'Source Code Organization', link: '/frontend/source-code' },
+      { text: 'Project Release Procedure', link: '/frontend/project-release' }
+    ] }
+  ]
+})
+
 const OnBoarding = definePage({ 
   text: 'On-boarding', 
   link: '/on-boarding/',
@@ -47,10 +66,12 @@ export default defineConfig({
     nav: [
       Home,
       OnBoarding,
+      FrontEnd,
       Example,
     ],
     sidebar: {
       [OnBoarding.link]:  OnBoarding.sidebar,
+      [FrontEnd.link]:  FrontEnd.sidebar,
       [Example.link]: Example.sidebar,
     },
 
